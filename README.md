@@ -62,6 +62,11 @@ The [mode][mode] for a Planck random variable with shape parameter `λ` is
 ## Usage
 
 ```javascript
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-planck-mode/tags). For example,
+
+```javascript
 import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@v0.1.1-esm/index.mjs';
 ```
 
@@ -115,7 +120,7 @@ v = mode( -1.5 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@v0.1.1-esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
