@@ -62,7 +62,7 @@ The [mode][mode] for a Planck random variable with shape parameter `λ` is
 ## Usage
 
 ```javascript
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@deno/mod.js';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@v0.1.1-deno/mod.js';
 ```
 
 #### mode( lambda )
@@ -110,7 +110,7 @@ v = mode( -1.5 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@deno/mod.js';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-mode@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
